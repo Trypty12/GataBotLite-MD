@@ -12,8 +12,8 @@ import { en, es, id, ar, pt } from './lib/idiomas/total-idiomas.js'
 // ES ➜ Si desea recibir reportes debe de usar los tres parámetros (Número, nombre y true)
 // EN ➜ Add the Bot number as priority first
 // EN ➜ If you want to receive reports you must use the three parameters (Number, name and true)
-global.owner = [['5492266466080', '𝙊𝙬𝙣𝙚𝙧 💖🐈', true], //𝙂𝙖𝙩𝙖𝘽𝙤𝙩𝙇𝙞𝙩𝙚-𝙈𝘿 🌻🐈
-['573026191480', '𝙂𝘽 𝘼𝙨𝙞𝙨𝙩𝙚𝙣𝙘𝙞𝙖 💖🐈', true], ['593968585383'], ['5492266466080'], ['5217294888993'], ['5492266613038'], ['51948705559']]
+global.owner = [['51983846435', '𝙊𝙬𝙣𝙚𝙧 💖🐈', true], //𝙂𝙖𝙩𝙖𝘽𝙤𝙩𝙇𝙞𝙩𝙚-𝙈𝘿 🌻🐈
+['51923842842', '𝙂𝘽 𝘼𝙨𝙞𝙨𝙩𝙚𝙣𝙘𝙞𝙖 💖🐈', true], ['593968585383'], ['5492266466080'], ['5217294888993'], ['5492266613038'], ['51948705559']]
 
 global.mods = [] 
 global.prems = []
@@ -25,8 +25,8 @@ global.prems = []
 global.lenguajeGB = es  //<-- Predeterminado en idioma Español 
 
 // confirmación en el ajuste de idioma y owner en la consola
-global.languageLen = ""
-global.registerNumber = ""
+global.languageLen = "1"
+global.registerNumber = "1"
 
 // ES ➜ Consigue Apikey en https://platform.openai.com/account/api-keys
 global.openai_key = 'sk-0'
@@ -80,8 +80,8 @@ global.fetch = fetch
 global.axios = axios
 global.moment = moment	
 
-global.packname = '𝙂𝙖𝙩𝙖𝘽𝙤𝙩𝙇𝙞𝙩𝙚-𝙈𝘿 🌻🐈'
-global.author = '𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨'
+global.packname = 'Rykerbot 🌻🐈'
+global.author = 'Ryker'
 
 // ES ➜ Está parte es para mostrar el contacto de alguien al usar #contacto
 // EN ➜ This part is to display someone's contact using #contact
@@ -92,7 +92,7 @@ global.official = [
 ['5521989092076', '𝗗𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗮𝗱𝗼𝗿𝗮 𝗢𝗳𝗶𝗰𝗶𝗮𝗹 💻', 1]] 
 
 global.mail = '' //agrega tú correo
-global.desc = '' //agrega una descripción corta
+global.desc = '' //Bienvenidos a RykerBot, sean felices conmigo.
 global.desc2 = '' //agrega una descripción larga (Solo se aplicará si su whasapp no tiene descripción)
 global.country = '' //agrega tú país ejemplo: 🇪🇨
 
